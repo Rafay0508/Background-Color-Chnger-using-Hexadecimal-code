@@ -1,0 +1,32 @@
+body {
+    background-color: #f6aaad;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.bg-container {
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 100px;
+
+}
+#text {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+#code {
+    font-size: 28px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20%;
+    font-size: 30px;
+}
+

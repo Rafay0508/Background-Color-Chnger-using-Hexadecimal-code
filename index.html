@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Change Background Color</title>
+    <!-- <style>
+    body{
+        background-color: #ED1C24;
+
+    }
+#text{
+    font-size: 33px;
+    font-weight: bold;
+}
+#code{
+    font-size: 28px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20%;
+}
+.bg-container{
+    margin-top: 250px;
+    margin-left: 250px;
+}
+</style> -->
+
+</head>
+
+<body>
+    <h1>-----Background Color Changer-----</h1>
+    <div class="bg-container">
+        <span id="text">Color code: </span><span id="code">#ED1C24</span>
+        <br>
+        <button onclick="change()">Click Me</button>
+    </div>
+
+    <!-- <script>
+function change(){
+    var code = document.getElementById('code');
+    var random = Math.round(Math.random()*100000).toString(16);
+    var hexa = "#"+random.toUpperCase();
+    code.innerHTML = hexa; 
+document.body.style.backgroundColor = hexa;
+} 
+</script>
+-->
+    <script src="script.js"></script>
+</body>
+
+</html>
